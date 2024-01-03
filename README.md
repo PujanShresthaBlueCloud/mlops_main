@@ -55,3 +55,9 @@ Project Organization
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+# git hub link for the code
+https://github.com/c17hawke/mlops_main/tree/main
+
+# google api console for dvc authentication
+https://console.cloud.google.com/apis/credentials/consent?project=mlopsend2end&supportedpurview=project
