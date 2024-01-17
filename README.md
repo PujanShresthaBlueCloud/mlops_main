@@ -59,5 +59,20 @@ Project Organization
 # git hub link for the code
 https://github.com/c17hawke/mlops_main/tree/main
 
+for setup 
+https://c17hawke.github.io/wafer_mlops_docs/stage1_init_setup/
+
 # google api console for dvc authentication
 https://console.cloud.google.com/apis/credentials/consent?project=mlopsend2end&supportedpurview=project
+
+For google setup
+https://dvc.org/doc/user-guide/data-management/remote-storage/google-drive#google-drive
+
+Add remote storage we have created mlops_end_to_end_data floder in google drive inside MyDrive
+dvc remote add -d storage gdrive://<DRIVE ID>
+dvc remote add -d storage gdrive://1pxN01xa2zjzpSCRlQyVwg1wCzha4rSjC
+
+dvc remote modify storage gdrive_client_id '68158427861-6ahul0l6mjdfhpcs68efg7uliv6ojl8o.apps.googleusercontent.com'
+dvc remote modify storage gdrive_client_secret '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'
+
+git add .dvc/config && git commit -m "Configure remote storage"
